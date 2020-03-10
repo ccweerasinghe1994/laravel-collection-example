@@ -1,3 +1,5 @@
+# **median()**
+```php
 <?php
 
 namespace App;
@@ -16,3 +18,11 @@ class CollectionExample
         return collect($data)->median('tax');
     }
 }
+
+```
+
+```php
+
+300
+
+```

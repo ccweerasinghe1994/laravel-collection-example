@@ -2,3 +2,4 @@
 2. [Enviromant Setup](./Docs/environmantsetup.md)
 3. [average() ](./Docs/average.md)
 4. [max() ](./Docs/max.md)
+5. [median() ](./Docs/median.md)

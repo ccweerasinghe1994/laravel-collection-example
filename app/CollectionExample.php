@@ -1,37 +1,13 @@
 <?php
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 namespace App;
 
 class CollectionExample
 {
     public function example()
     {
-        $data = [
-            1000, 2000, 30000
-        ];
+        $data = [['foo' => 10], ['foo' => 20]];
 
-        return collect($data)->max();
+        return collect($data)->max('foo');
     }
 }

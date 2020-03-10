@@ -12,7 +12,7 @@ class CollectionCommand extends Command
      *
      * @var string
      */
-    protected $signature = 'Collection:example';
+    protected $signature = 'collection:example';
 
     /**
      * The console command description.
@@ -42,4 +42,5 @@ class CollectionCommand extends Command
         dd((new CollectionExample())->example());
     }
 }
-    
+
+

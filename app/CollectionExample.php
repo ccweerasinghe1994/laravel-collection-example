@@ -1,9 +1,37 @@
 <?php
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 namespace App;
-class CollectionExample{
+
+class CollectionExample
+{
     public function example()
     {
-        return collect([1,2,3,4])->first();
+        $data = [
+            1000, 2000, 30000
+        ];
+
+        return collect($data)->max();
     }
 }
